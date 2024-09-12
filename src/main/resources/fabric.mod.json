@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "its-all-ice",
+	"version": "${version}",
+	"name": "Its All Ice!",
+	"description": "why is it ALL FUCKING ICE",
+	"authors": [
+		"Vyxia"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/its-all-ice/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.vyxia.all_ice.ItsAllIce"
+		],
+		"fabric-datagen": [
+			"net.vyxia.all_ice.ItsAllIceDataGenerator"
+		]
+	},
+	"mixins": [
+		"its-all-ice.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.5",
+		"minecraft": ">=1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
