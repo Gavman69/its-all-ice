@@ -9,9 +9,9 @@
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/Gavman69/its-all-ice"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/its-all-ice/icon.png",
 	"environment": "*",
 	"entrypoints": {
