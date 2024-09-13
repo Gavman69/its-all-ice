@@ -1,11 +1,10 @@
 package net.vyxia.all_ice.mixin;
 
 import net.minecraft.block.Block;
+import net.vyxia.all_ice.ItsAllIce;
+import net.vyxia.all_ice.iceConfig;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Overwrite;
-import org.spongepowered.asm.mixin.injection.At;
-import org.spongepowered.asm.mixin.injection.Inject;
-import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
 @Mixin(Block.class)
 public class iceMixin {
@@ -15,6 +14,13 @@ public class iceMixin {
      */
 	@Overwrite()
 	public float getSlipperiness() {
-        return 1.075F;
+        float v = 1.075F;
+        switch (ItsAllIce.CONFIG.slipSetting()) {
+            case blue_ice -> v = 0.989F;
+            case ice -> v = 0.98F;
+            case normal_block -> v = 0.6F;
+            case custom -> v = ItsAllIce.CONFIG.customSlipness();
+        }
+        return v;
     }
 }
