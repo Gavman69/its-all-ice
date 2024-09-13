@@ -8,7 +8,8 @@
 		"Vyxia"
 	],
 	"contact": {
-		"sources": "https://github.com/Gavman69/its-all-ice"
+		"sources": "https://github.com/Gavman69/its-all-ice",
+		"issues": "https://github.com/Gavman69/its-all-ice/issues"
 	},
 	"license": "MIT",
 	"icon": "assets/its-all-ice/icon.png",
