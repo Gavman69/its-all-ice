@@ -3,8 +3,9 @@
   "text.config.its-all-ice.option.slipSetting": "Slipperiness",
   "text.config.its-all-ice.option.customSlipness": "Custom Slipperiness",
   "text.config.its-all-ice.option.slipSetting.value.sdefault": "Default (1.075)",
-  "text.config.its-all-ice.option.slipSetting.value.blue_ice": "Blue Ice",
-  "text.config.its-all-ice.option.slipSetting.value.ice": "Ice",
-  "text.config.its-all-ice.option.slipSetting.value.normal_block": "Normal Block",
-  "text.config.its-all-ice.option.slipSetting.value.custom": "Custom"
+  "text.config.its-all-ice.option.slipSetting.value.blue_ice": "Blue Ice (0.989)",
+  "text.config.its-all-ice.option.slipSetting.value.ice": "Ice (0.98)",
+  "text.config.its-all-ice.option.slipSetting.value.normal_block": "Normal Block (0.6)",
+  "text.config.its-all-ice.option.slipSetting.value.custom": "Custom",
+  "text.config.its-all-ice.option.enabled": "Enabled"
 }

@@ -7,6 +7,8 @@ import io.wispforest.owo.config.annotation.SectionHeader;
 @Modmenu(modId = ItsAllIce.MOD_ID)
 @Config(name = ItsAllIce.MOD_ID, wrapperName = "iceConfig")
 public class iceConfigModel {
+    public boolean enabled = true;
+
     public slipChoices slipSetting = slipChoices.sDefault;
 
     public enum slipChoices {
