@@ -2,7 +2,6 @@ package net.vyxia.all_ice;
 import io.wispforest.owo.config.annotation.Config;
 import io.wispforest.owo.config.annotation.Modmenu;
 import io.wispforest.owo.config.annotation.RangeConstraint;
-import io.wispforest.owo.config.annotation.SectionHeader;
 
 @Modmenu(modId = ItsAllIce.MOD_ID)
 @Config(name = ItsAllIce.MOD_ID, wrapperName = "iceConfig")
