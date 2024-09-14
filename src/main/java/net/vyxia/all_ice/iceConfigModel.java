@@ -15,6 +15,6 @@ public class iceConfigModel {
         sDefault, blue_ice, ice, normal_block, custom
     }
 
-    @RangeConstraint(min = 0.015F, max = 1.5F, decimalPlaces = 3)
+    @RangeConstraint(min = 0.6F, max = 1.5F, decimalPlaces = 3)
     public float customSlipness = 0.6F;
 }
